@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "104990418626",
+    "project_id": "equipobasketuoc",
+    "storage_bucket": "equipobasketuoc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104990418626:android:880f40018692a1d2637d5b",
+        "android_client_info": {
+          "package_name": "EquipoBasketAndroid.Producto4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIBH3y9Un96HCNLueCN6v0BF7fRgful5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104990418626:android:51a319bea3ab33d4637d5b",
+        "android_client_info": {
+          "package_name": "com.equipobasquet.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIBH3y9Un96HCNLueCN6v0BF7fRgful5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104990418626:android:f69f04b0201295c1637d5b",
+        "android_client_info": {
+          "package_name": "com.equipobasquet.producto4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIBH3y9Un96HCNLueCN6v0BF7fRgful5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

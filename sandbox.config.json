@@ -1,0 +1,5 @@
+{
+    "template": "node",
+    "start": "npm start"
+  }
+  
