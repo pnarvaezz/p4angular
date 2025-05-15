@@ -53,3 +53,30 @@ android/.cxx
 # Informes de test y logs de ejecucion.
 coverage/
 *.log
+
+# ────────────────────────────────────
+# Firebase Cloud Functions
+# ────────────────────────────────────
+functions/node_modules/
+functions/lib/                # JS compilado desde TS
+functions/.env*               # variables de entorno locales
+functions/.runtimeconfig.json # config de funciones
+firebase-debug.log*           # logs del CLI
+.firebase/                    # estado de los emuladores
+serviceAccount*.json          # claves privadas
+
+# ────────────────────────────────────
+# Angular (angular/)
+# ────────────────────────────────────
+angular/dist/
+angular/out-tsc/
+angular/.angular/             # caché de CLI
+angular/.angular/cache/
+angular/tmp/
+angular/node_modules/
+angular/coverage/
+angular/.idea/
+angular/.vscode/
+# Si guardas credenciales fuera de Firestore Rules,
+# puedes ignorar los entornos sensibles:
+# angular/src/environments/environment*.ts
