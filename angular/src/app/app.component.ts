@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
 
     // Notificaciones recibidas en primer plano
     onMessage(this.messaging, msg =>
-      console.log('FCM foreground message:', msg)
+      console.log('Token guardado en Firestore:', msg)
     );
   }
 }
