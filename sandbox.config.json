@@ -1,5 +1,11 @@
 {
-    "template": "node",
-    "start": "npm start"
+  "template": "node",
+  "start": "npm run web",
+  "container": {
+    "ports": {
+      "19000/tcp": "public",
+      "19002/tcp": "public",
+      "19006/tcp": "public"
+    }
   }
-  
+}
