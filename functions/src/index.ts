@@ -7,7 +7,7 @@ initializeApp();
 const db = getFirestore();
 
 export const notifyOnGameChange = onDocumentWritten(
-  {document: "games/{gameId}", region: "europe-west1"},
+  {document: "players/{playerId}", region: "europe-west1"},
   async (event) => {
     const after = event.data?.after?.data();
     if (!after) return;
@@ -17,7 +17,7 @@ export const notifyOnGameChange = onDocumentWritten(
         title: "Datos actualizados",
         body: `Se modificó el juego “${after.name ?? "sin nombre"}”.`,
       },
-      data: {gameId: event.params.gameId},
+      data: {playerId: event.params.playerId},
     };
 
     const snap = await db.collection("tokens").get();
