@@ -1,7 +1,0 @@
-{
-  "name": "p4angular",
-  "contents": [
-    { "path": "angular", "template": "angular-cli" },
-    { "path": "app",     "template": "expo" }
-  ]
-}
